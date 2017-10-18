@@ -14,7 +14,7 @@
 # pickle everything before we use it. Therefore, most of the functions
 # dump the data, interface with the dict, then load the results.
 
-from bsddb import hashopen
+from bsddb3 import hashopen
 from pickle import dumps, loads
 
 class Database():
